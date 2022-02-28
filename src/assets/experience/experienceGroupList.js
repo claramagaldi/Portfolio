@@ -1,13 +1,13 @@
 const experienceGroupList = [
     { 
         id: 1, 
-        title: "Frontend Development",
-        class: "experience__frontend",
+        title: "Technical Skills",
+        class: "experience__technical",
     },
     { 
         id: 2, 
-        title: "Backend Development",
-        class: "experience__backend",
+        title: "Soft Skills",
+        class: "experience__soft",
     }
 ]
 

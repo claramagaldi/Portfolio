@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/about/me-about.jpeg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { FiAward } from "react-icons/fi";
+import { FaGlobeAmericas } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -21,35 +21,38 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              <FiAward className="about__icon"/>
+              <h5>High Honours</h5>
+              <small>College and University</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <FaGlobeAmericas className="about__icon"/>
+              <h5>3 Idioms</h5>
+              <small>Portuguese, English and Spanish</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon"/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <FaLaptopCode className="about__icon"/>
+              <h5>Coding</h5>
+              <small>Frontend, Backend, Database, Cloud</small>
             </article>
           </div>
           
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem, explicabo cupiditate! Voluptatum consequuntur,
-            aperiam fugiat assumenda veritatis repudiandae, impedit quod sed
-            adipisci ipsam facere voluptas excepturi magnam nostrum! Deleniti,
-            quos.
+          Passionate about automation and efficiency, 
+          I found programming a way to satisfy my desire to make life easier 
+          and more practical. I completed the Software Engineering Technology 
+          program at Centennial College where I was able to learn various 
+          topics such as programming skills, frameworks/libraries, 
+          database management, cloud and project management. 
+          I am hardworking person, especially organized, with proven leadership and collaboration skills. 
+          I highly value teamwork, as I believe the best growth occurs in collaborative environments..
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          {/* <a href="#contact" className="btn btn-primary">
             Let's talk
-          </a>
+          </a> */}
         </div>
       
       </div>

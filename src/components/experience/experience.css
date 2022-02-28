@@ -32,7 +32,8 @@
 
 .experience__details {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  /* background-color: pink; */
   gap: 1rem;
 }
 

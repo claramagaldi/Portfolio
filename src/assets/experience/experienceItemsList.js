@@ -1,52 +1,196 @@
 const experienceItemsList = [
-    {
-        id: 1, 
-        title: "Frontend Development",
-        name: "HTML",
-        level: "Experienced"
-    },
-    {
-        id: 2,  
-        title: "Frontend Development",
-        name: "CSS",
-        level: "Intermediate"
-    },
-    {
-        id: 3,  
-        title: "Frontend Development",
-        name: "Bootstrap",
-        level: "Intermediate"
-    },
-    {
-        id: 4,  
-        title: "Frontend Development",
-        name: "React",
-        level: "Experienced"
-    },
-    {
-        id: 5,  
-        title: "Backend Development",
-        name: "Node JS",
-        level: "Experienced"
-    },
-    {
-        id: 6,  
-        title: "Backend Development",
-        name: "MongoDB",
-        level: "Experienced"
-    },
-    {
-        id: 7,  
-        title: "Backend Development",
-        name: "Oracle",
-        level: "Intermediate"
-    },
-    {
-        id: 8,  
-        title: "Backend Development",
-        name: "MySQL",
-        level: "Intermediate"
-    },
-]
+  {
+    id: 1,
+    title: "Technical Skills",
+    name: "JavaScript",
+    level: "",
+  },
+  {
+    id: 2,
+    title: "Technical Skills",
+    name: "HTML",
+    level: "",
+  },
+  {
+    id: 3,
+    title: "Technical Skills",
+    name: "CSS",
+    level: "",
+  },
+  {
+    id: 4,
+    title: "Technical Skills",
+    name: "Bootstrap",
+    level: "",
+  },
+  {
+    id: 5,
+    title: "Technical Skills",
+    name: "React",
+    level: "",
+  },
+  {
+    id: 6,
+    title: "Technical Skills",
+    name: "Node.js",
+    level: "",
+  },
+  {
+    id: 7,
+    title: "Technical Skills",
+    name: "Express.js",
+    level: "",
+  },
+  {
+    id: 8,
+    title: "Technical Skills",
+    name: "Mongoose",
+    level: "",
+  },
+  {
+    id: 9,
+    title: "Technical Skills",
+    name: "MongoDB",
+    level: "",
+  },
+  {
+    id: 10,
+    title: "Technical Skills",
+    name: "Oracle Database",
+    level: "",
+  },
+  {
+    id: 11,
+    title: "Technical Skills",
+    name: "PL/SQL",
+    level: "",
+  },
+  {
+    id: 12,
+    title: "Technical Skills",
+    name: ".NET",
+    level: "",
+  },
+  {
+    id: 13,
+    title: "Technical Skills",
+    name: "C#",
+    level: "",
+  },
+  {
+    id: 14,
+    title: "Technical Skills",
+    name: "Java",
+    level: "",
+  },
+  {
+    id: 15,
+    title: "Technical Skills",
+    name: "Excel Visual Basic",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Technical Skills",
+    name: "AWS",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Teamwork",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Leadership",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Problem-Solving",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Communication",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Work Ethic",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Mentoring",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Creativity",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Critical Thinking",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Willingness to learn",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Respectfulness",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Trainability",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Organization",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Reliability",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Dedication",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Planning",
+    level: "",
+  },
+  {
+    id: 16,
+    title: "Soft Skills",
+    name: "Honesty",
+    level: "",
+  },
+];
 
 export default experienceItemsList;
