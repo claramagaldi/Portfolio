@@ -6,14 +6,14 @@ const Socials = (props) => {
   return (
     <div className={props.class}>
       <a
-        href="https://www.linkedin.com/in/clara-magaldi/"
+        href= {"https://www.linkedin.com/in/" + process.env.REACT_APP_LINKEDIN + "/"}
         target="_blank"
         rel="noreferrer"
       >
         <BsLinkedin />
       </a>
       <a
-        href="https://github.com/claramagaldi/"
+        href={"https://github.com/" + process.env.REACT_APP_GITHUB  + "/"}
         target="_blank"
         rel="noreferrer"
       >

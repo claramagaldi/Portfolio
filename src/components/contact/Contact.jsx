@@ -21,9 +21,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("A message was sent!")
         },
         (error) => {
           console.log(error.text);
+          alert("Error sending the message!")
         }
       );
       e.target.reset();
@@ -47,6 +49,20 @@ const Contact = () => {
             <h5>Messenger</h5>
             <a
               href={"https://m.me/" + process.env.REACT_APP_MESSENGER}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Send a message
+            </a>
+          </article>
+          <article className="contact__option">
+            <BsWhatsapp className="contact__option-icon" />
+            <h5>WhatsApp</h5>
+            <a
+              href={
+                "https://api.whatsapp.com/send?phone=" +
+                process.env.REACT_APP_PHONE
+              }
               target="_blank"
               rel="noreferrer"
             >
