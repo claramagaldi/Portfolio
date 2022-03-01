@@ -55,18 +55,29 @@
   font-size: 1.4rem;
 }
 
-.about__card h5 {
-  font-size: 0.95rem;
-}
-
 .about__card small {
   font-size: 0.7rem;
   color: var(--color-light);
 }
 
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+}
+
+/* CTA */
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
 /* Media Queries (medium devices) */

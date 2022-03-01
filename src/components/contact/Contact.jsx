@@ -31,20 +31,20 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get in touch</h5>
+      <h4>Get in touch</h4>
       <h2>Contact me</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>{email}</h4>
+            <h5>{email}</h5>
             <a href={"mailto:" + email} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
+            <h5>Messenger</h5>
             <a
               href={"https://m.me/" + process.env.REACT_APP_MESSENGER}
               target="_blank"
@@ -55,7 +55,7 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
-            <h4>WhatsApp</h4>
+            <h5>WhatsApp</h5>
             <a
               href={
                 "https://api.whatsapp.com/send?phone=" +

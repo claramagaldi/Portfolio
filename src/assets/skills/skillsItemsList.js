@@ -1,4 +1,4 @@
-const experienceItemsList = [
+const skillsItemsList = [
   {
     id: 1,
     title: "Technical Skills",
@@ -193,4 +193,4 @@ const experienceItemsList = [
   },
 ];
 
-export default experienceItemsList;
+export default skillsItemsList;

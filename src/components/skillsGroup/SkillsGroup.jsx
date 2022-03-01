@@ -1,18 +1,18 @@
 import React from "react";
-import ExperienceItem from "../experienceItem/ExperienceItem";
-import experienceItemsList from "../../assets/experience/experienceItemsList";
+import SkillsItem from "../skillsItem/SkillsItem";
+import skillsItemsList from "../../assets/skills/skillsItemsList";
 
-const experienceBlock = (props) => {
+const skillsBlock = (props) => {
   return (
-    <div className={props.class}>
+    <div className="skills__group">
       <h3>{props.title}</h3>
-      <div className="experience__content">
-        {experienceItemsList
+      <div className="skills__content">
+        {skillsItemsList
           .filter((item) => {
             return item.title === props.title;
           })
           .map((filteredItem) => (
-            <ExperienceItem
+            <SkillsItem
               key={filteredItem.id}
               id={filteredItem.id}
               name={filteredItem.name}
@@ -24,4 +24,4 @@ const experienceBlock = (props) => {
   );
 };
 
-export default experienceBlock;
+export default skillsBlock;

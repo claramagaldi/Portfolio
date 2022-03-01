@@ -4,11 +4,12 @@ import ME from "../../assets/about/me-about.jpeg";
 import { FiAward } from "react-icons/fi";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
+import Cta from "./Cta";
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
+      <h4>Get To Know</h4>
       <h2>About Me</h2>
       <div className="container about__container">
         
@@ -49,7 +50,7 @@ const About = () => {
           I am hardworking person, especially organized, with proven leadership and collaboration skills. 
           I highly value teamwork, as I believe the best growth occurs in collaborative environments..
           </p>
-
+          <Cta />
           {/* <a href="#contact" className="btn btn-primary">
             Let's talk
           </a> */}

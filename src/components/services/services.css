@@ -52,6 +52,23 @@
   font-size: 0.9rem;
 }
 
+
+
+/* Media Queries (extra-large devices) */
+
+@media screen and (min-width: 1824px) {
+
+} 
+
+/* Media Queries (large devices) */
+
+@media screen and (max-width: 1824px) {
+
+} 
+
+
+
+
 /* Media Queries (medium devices) */
 
 @media screen and (max-width: 1024px) {
