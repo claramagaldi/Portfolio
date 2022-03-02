@@ -1,6 +1,7 @@
 const workItemsList = [
   {
     id: 1,
+    image: "tim.png",
     title: "Senior RF Engineer",
     local: "Tim Brasil, Rio de Janeiro, RJ, Brazil",
     period: "February 2014 - August 2019",
@@ -9,6 +10,7 @@ const workItemsList = [
   },
   {
     id: 2,
+    image: "huawei.png",
     title: "Wireless Configuration Engineer",
     local: "Huawei Technologies, Rio de Janeiro, RJ, Brazil",
     period: "April 2013 - January 2014",

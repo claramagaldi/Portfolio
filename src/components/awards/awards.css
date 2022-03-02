@@ -47,7 +47,7 @@
   
   @media screen and (max-width: 1824px) {
     .awards__container {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   
     .awards__content {
@@ -58,8 +58,8 @@
   /* Media Queries (medium devices) */
   
   @media screen and (max-width: 1024px) {
-    .awards__content {
-      grid-template-columns: repeat(2, 1fr);
+    .awards__container {
+      grid-template-columns: 1fr;
     }
   
     .awards__group {
@@ -78,6 +78,7 @@
   @media screen and (max-width: 600px) {
     .awards__container {
       gap: 1rem;
+      padding: 2.4rem 2rem;
     }
   
     .awards__content {

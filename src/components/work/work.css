@@ -25,9 +25,19 @@
 }
 
 .work__item-p {
-    grid-column: 1 / span 2;
-    grid-row: third-line / 4;
-    
+  grid-column: 1 / span 2;
+  grid-row: third-line / 4;
+}
+.work__item-image {
+  width: 8%;
+}
+.work__item-company {
+  display: flex;
+  align-items: center;
+}
+
+.workLocal {
+  grid-column: 1 / span 2;
 }
 
 /* Media Queries (extra-large devices) */
@@ -61,8 +71,18 @@
 @media screen and (max-width: 600px) {
   .work__item {
     grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
   .work__item-right {
     text-align: left;
+  }
+
+  .work__item-p {
+    padding-top: 2rem;
+  }
+  .work__item-image {
+    display: none;
   }
 }

@@ -39,6 +39,11 @@
 /* Media Queries (medium devices) */
 
 @media screen and (max-width: 1024px) {
+  
+  .education__item {
+    border-radius: 1.5rem;
+  }
+
   .education__item h4 {
     font-size: 100%;
   }

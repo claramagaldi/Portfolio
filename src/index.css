@@ -110,7 +110,7 @@ img {
 @media screen and (min-width: 1824px) {
     .container {
         width: var(--container-width-xlg);
-        background-color: gray;
+        /* background-color: gray; */
     }
 
     section {
@@ -143,7 +143,7 @@ img {
 @media screen and (max-width: 1824px) {
     .container {
         width: var(--container-width-lg);
-        background-color: blue;
+        /* background-color: blue; */
     }
 
     h1 {
@@ -173,7 +173,7 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
-        background-color: yellowgreen;
+        /* background-color: yellowgreen; */
     }
 
 } 
@@ -183,7 +183,7 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
-        background-color: pink;
+        /* background-color: pink; */
     }
 
     section > h2 {

@@ -3,6 +3,7 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -70,12 +71,11 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h5>WhatsApp</h5>
+            <BsLinkedin className="contact__option-icon" />
+            <h5>LinkedIn</h5>
             <a
               href={
-                "https://api.whatsapp.com/send?phone=" +
-                process.env.REACT_APP_PHONE
+                "https://www.linkedin.com/in/" + process.env.REACT_APP_LINKEDIN
               }
               target="_blank"
               rel="noreferrer"

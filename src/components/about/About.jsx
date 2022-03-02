@@ -47,7 +47,7 @@ const About = () => {
           program at Centennial College where I was able to learn various 
           topics such as programming skills, frameworks/libraries, 
           database management, cloud and project management. 
-          I am hardworking person, especially organized, with proven leadership and collaboration skills. 
+          I am a hardworking person, especially organized, with proven leadership and collaboration skills. 
           I highly value teamwork, as I believe the best growth occurs in collaborative environments..
           </p>
           <Cta />
