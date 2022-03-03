@@ -31,3 +31,26 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
   }
+
+/* Media Queries (extra-large devices) */
+
+@media screen and (min-width: 1824px) {
+} 
+
+/* Media Queries (large devices) */
+
+@media screen and (max-width: 1824px) {
+} 
+
+/* Media Queries (medium devices) */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* Media Queries (small devices) */
+
+@media screen and (max-width: 600px) {
+  nav {
+    gap: 0;
+  }
+}
